@@ -2,4 +2,123 @@
 
 /* 回答はここに書いてね */
 
+.text{
+  font-size:40px;
+  font-weight:bold;
+  transform:translateX(40%)  translateY(80%);
+}
+
+.background{
+  height:500px;
+  width:500px;
+  background-color:#ECF1F2;
+  margin:0 auto;
+  left:0;
+  right:0;
+  position:relative;
+}
+
+.northwest::after{
+  content:"";
+  height:20px;
+  width:20px;
+  background-color:#ffefd3;
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+/* 1 */
+.north{
+  height:100px;
+  width:100px;
+  background-color:#ffefd3;
+  top:-160px;
+  left:200px;
+  z-index:1;
+  position:relative;
+
+}
+/* 2 */
+.northeast{
+  height:100px;
+  width:100px;
+  background-color:#7084de;
+  top:-480px;
+  left:280px;
+  z-index:2;
+  position:relative;
+}
+/* 3 */
+.east{
+  height:100px;
+  width:100px;
+  background-color:#d0ecea;
+  top:-500px;
+  left:360px;
+  z-index:3;
+  position:relative;
+}
+/* 4 */
+.southeast{
+  height:100px;
+  width:100px;
+  background-color:#8b7a6e;
+  top:-120px;
+  left:280px;
+  z-index:4;
+  position:relative;
+}
+/* 5 */
+.south{
+  height:100px;
+  width:100px;
+  background-color:#9fd6d2;
+  top:260px;
+  left:200px;
+  z-index:5;
+  position:relative;
+}
+/* 6 */
+.southwest{
+  height:100px;
+  width:100px;
+  background-color:#fffee4;
+  top:-220px;
+  left:120px;
+  z-index:6;
+  position:relative;
+}
+/* 7 */
+.west{
+  height:100px;
+  width:100px;
+  background-color:#deae70;
+  top:-100px;
+  left:40px;
+  z-index:7;
+  position:relative;
+}
+/* 8 */
+.northwest{
+  height:100px;
+  width:100px;
+  background-color:#de70cf;
+  top:120px;
+  left:120px;
+  z-index:8;
+  position:relative;
+}
+/* 9 */
+.unknown{
+  height:100px;
+  width:100px;
+  background-color:#2b69a3;
+  position:fixed;
+  top:0;
+  left:0;
+  margin:10px;
+}
+
+
 /* 回答はここに書いてね */

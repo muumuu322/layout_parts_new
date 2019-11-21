@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box-wrap{
+  width:900px;
+  padding:20px;
+  margin: 0 auto;
+  background-color:#eff3f4;
+  overflow:auto;
+}
+
+.textbox{
+  width:230px;
+  float:left;
+  margin-left:20px;
+  padding:20px;
+  background-color:#3274ae;
+}
+
+.text{
+  font-size:16px;
+  line-height:16px;
+  padding:20px;
+  border:10px solid #022336;
+  background-color:#eaf4ff;
+
+}
 /* 回答はここに書いてね */

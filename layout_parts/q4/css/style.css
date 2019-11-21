@@ -2,4 +2,47 @@
 
 /* 回答はここに書いてね */
 
+.box{
+  text-align:center;
+  line-height:55px;
+  width:95%;
+  display:table;
+  padding:20px;
+
+}
+
+.box:last-child{
+  padding-top:0;
+}
+
+.inside{
+  display:table-cell;
+}
+
+.topleft{
+  width:100px;
+  background-color:#fdc8b8;
+}
+
+.topcenter{
+  background-color:#e0abd9;
+}
+
+.topright{
+  width:100px;
+  background-color:#b6d8ed;
+}
+
+.bottomleft{
+  background-color:#e5d32e;
+}
+
+.bottomcenter{
+  background-color:#ec8f9a;
+}
+
+.bottomright{
+  width:500px;
+  background-color:#8fdcad;
+}
 /* 回答はここに書いてね */
