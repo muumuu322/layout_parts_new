@@ -8,8 +8,7 @@
 .align-text{
   background-color:#e6f2ff;
   width:90px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding:10px 0;
   display:inline-block;
 }
 
@@ -17,16 +16,16 @@
   margin:0 auto;
   text-align:center;
   background-color:#e6f2ff;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding:10px 0;
   width:90px;
   }
 
+.king_of_table{
+  display:table;
+}
+
 .table{
-  width:300px;
-  height:200px;
   display:table-cell;
-  background-color:#e6f2ff;
   vertical-align:middle;
   text-align:center;
 }

@@ -2,21 +2,24 @@
 
 /* 回答はここに書いてね */
 
-.box{
-  text-align:center;
-  line-height:55px;
-  width:95%;
-  display:table;
+.outside{
   padding:20px;
-
 }
 
-.box:last-child{
-  padding-top:0;
+.boxer{
+  text-align:center;
+  width:100%;
+  display:table;
+  margin-bottom:20px;
+}
+
+.boxer:last-child{
+  margin-bottom:0;
 }
 
 .inside{
   display:table-cell;
+  padding:20px;
 }
 
 .topleft{

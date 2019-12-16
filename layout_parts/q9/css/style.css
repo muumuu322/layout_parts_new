@@ -2,16 +2,14 @@
 
 /* 回答はここに書いてね */
 
-.bigger{
+.like_Fiat{
+overflow:hidden;
+height:333px;
+width:500px;
 }
 
-.hover{
-  position: absolute;
+.like_Fiat img:hover{
   transform:scale(1.5,1.5);
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  background:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,8))
 }
 /* 回答はここに書いてね */

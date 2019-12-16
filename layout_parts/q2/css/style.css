@@ -3,14 +3,15 @@
 /* 回答はここに書いてね */
 .textbox{
   width:940px;
-  padding:10px;
+  padding:20px;
   box-sizing:border-box;
   background-color:#eff3f4;
+  margin:0 auto;
 }
 
 .pictureleft{
   float:left;
-  margin:10px;
+  margin-bottom:10px;
   margin-right:20px;
 }
 
@@ -21,10 +22,9 @@
 }
 
 .text{
-  margin:10px;
   font-size:18px;
   line-height:22px;
-  text-align:justify;
+  word-break:break-all
 }
 
 
