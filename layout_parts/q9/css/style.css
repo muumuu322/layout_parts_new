@@ -2,14 +2,60 @@
 
 /* 回答はここに書いてね */
 
-.like_Fiat{
-overflow:hidden;
-height:333px;
-width:500px;
+.car_and_text{
+  height:333px;
+  width:500px;
+  position:relative;
+  overflow:hidden;
+  margin:0 auto;
 }
 
-.like_Fiat img:hover{
-  transform:scale(1.5,1.5);
-  background:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,8))
+.like_Fiat{
+  position:absolute;
+  transition-duration:500ms;
 }
+
+.car_and_text:hover .like_Fiat {
+  transform:scale(1.5,1.5);
+}
+
+.car_and_text:hover .text-background{
+  bottom:0%
+}
+
+.text-background{
+  bottom:-100%;
+  width:500px;
+  height:333px;
+  position:absolute;
+  transition-duration:500ms;
+  background:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,8));
+}
+
+
+.text{
+  bottom:0;
+  font-size:16px;
+  line-height:16px;
+  color:#FFF;
+  word-break:break-all;
+  position:absolute;
+  text-align:left;
+  padding:20px;
+}
+
+.circle{
+  margin:0 auto;
+  width:100px;
+  height:100px;
+  border-radius:100px;
+  border:10px solid #ecf1f2;
+  border-right-color:#00bcd4;
+  animation:spin 1.1s linear infinite;
+}
+
+@keyframes spin{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+  }
 /* 回答はここに書いてね */

@@ -29,91 +29,77 @@
   top:0px;
 }
 
-/* 1 */
-.north{
+.common-box{
   height:100px;
   width:100px;
+  position:absolute;
+}
+
+/* 1 */
+.north{
   background-color:#ffefd3;
   top:40px;
   left:200px;
   z-index:1;
-  position:absolute;
-
 }
 /* 2 */
 .northeast{
-  height:100px;
-  width:100px;
   background-color:#7084de;
   top:120px;
   left:280px;
   z-index:2;
-  position:absolute;
+
 }
 /* 3 */
 .east{
-  height:100px;
-  width:100px;
   background-color:#d0ecea;
   top:200px;
   left:360px;
   z-index:3;
-  position:absolute;
+
 }
 /* 4 */
 .southeast{
-  height:100px;
-  width:100px;
   background-color:#8b7a6e;
   top:280px;
   left:280px;
   z-index:4;
-  position:absolute;
+
 }
 /* 5 */
 .south{
-  height:100px;
-  width:100px;
   background-color:#9fd6d2;
   top:360px;
   left:200px;
   z-index:5;
-  position:absolute;
+
 }
 /* 6 */
 .southwest{
-  height:100px;
-  width:100px;
   background-color:#fffee4;
   top:280px;
   left:120px;
   z-index:6;
-  position:absolute;
+
 }
 /* 7 */
 .west{
-  height:100px;
-  width:100px;
   background-color:#deae70;
   top:200px;
   left:40px;
   z-index:7;
-  position:absolute;
+
 }
 /* 8 */
 .northwest{
-  height:100px;
-  width:100px;
   background-color:#de70cf;
   top:120px;
   left:120px;
   z-index:8;
-  position:absolute;
+
 }
 /* 9 */
 .unknown{
-  height:100px;
-  width:100px;
   background-color:#2b69a3;
   position:fixed;
   top:10px;

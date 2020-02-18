@@ -2,32 +2,32 @@
 
 /* 回答はここに書いてね */
 
-table {
+.table {
   width:100%;
   table-layout:fixed;
   padding:10px;
 }
 
-table td{
+.table td{
   padding:10px;
   line-height:22px;
   vertical-align:middle;
 }
 
-table tr{
+.table tr{
   border:solid #dedede 1px;
   padding:10px;
 }
 
-table tr:nth-child(even){
+.table tr:nth-child(even){
   background-color:#ecf1f2;
 }
 
-tbody tr:last-child{
+.table tbody tr:last-child{
   border-top:dashed #000 2px;
 }
 
-table th{
+.table th{
   padding:10px;
   vertical-align:middle;
   font-size:18px;
@@ -37,47 +37,14 @@ table th{
   border:solid #dedede 1px;
 }
 
-table td{
+.table td{
   line-height:22px;
   text-align:center;
   border:solid #dedede 1px;
 }
 
 
-.text{
-  font-size:16px;
-  line-height:36px;
-  text-align:center;
-  border:solid #dedede 1px;
-}
 
-.tablelayout{
-  table-layout:fixed;
-  width:100%;
-}
-
-.sideheading .text:first-child {
-  font-size:17px;
-  line-height:36px;
-  color:#ffffff;
-  background-color:#2244aa;
-}
-
-.frontheading .text:first-child{
-  font-size:17px;
-  line-height:36px;
-  color:#ffffff;
-  background-color:#2244aa;
-}
-
-.border .text:first-child{
-border-top:dashed #000 2px;
-box-sizing:border-box;
-}
-
-.tablelayout .menu:nth-child(2n+1){
-  background-color:;
-}
 
 
 /* 回答はここに書いてね */
